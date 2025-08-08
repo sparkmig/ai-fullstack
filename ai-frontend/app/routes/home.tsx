@@ -10,7 +10,7 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-screen h-screen flex flex-col items-center justify-center gap-4">
       <a className="cursor-pointer text-blue-400 hover:underline" href="/chat">
         Go to Chat
       </a>
