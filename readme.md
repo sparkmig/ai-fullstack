@@ -40,16 +40,13 @@ To start the entire application stack (frontend and backend) using Docker Compos
 3. In the project root directory, run:
 
 	```powershell
-	docker-compose up --build
+	docker compose up -d
 	```
 
-4. The frontend and backend services will be built and started automatically. Access the frontend via your browser at the address shown in the Docker output (typically `http://localhost:3000`).
+4. The frontend and backend services will be built and started automatically. Access the frontend via your browser at `http://localhost:3000`.
 
-5. To stop the services, press `Ctrl+C` in the terminal and run:
+5. To stop the services, in the terminal and run:
 
 	```powershell
-	docker-compose down
+	docker compose down
 	```
-
----
-This architecture ensures a clear separation of concerns, scalability, and ease of development for both frontend and backend teams.
