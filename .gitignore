@@ -1,0 +1,60 @@
+# ===== Java / Maven (ai-backend) =====
+ai-backend/target/
+!ai-backend/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA
+ai-backend/.idea/modules.xml
+ai-backend/.idea/jarRepositories.xml
+ai-backend/.idea/compiler.xml
+ai-backend/.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+ai-backend/.apt_generated
+ai-backend/.classpath
+ai-backend/.factorypath
+ai-backend/.project
+ai-backend/.settings
+ai-backend/.springBeans
+ai-backend/.sts4-cache
+
+# NetBeans
+ai-backend/nbproject/private/
+ai-backend/nbbuild/
+ai-backend/dist/
+ai-backend/nbdist/
+ai-backend/.nb-gradle/
+ai-backend/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+ai-backend/.vscode/
+
+# macOS
+.DS_Store
+
+# ===== Node / React (ai-frontend) =====
+ai-frontend/node_modules/
+ai-frontend/.react-router/
+ai-frontend/build/
+ai-frontend/.env.local
+ai-frontend/.env.development
+ai-frontend/.env.production
+
+# VS Code
+ai-frontend/.vscode/
+
+# Logs
+*.log
+
+# ===== Docker =====
+docker-data/
+
+
+# ======== docker-compose =======
+.env
