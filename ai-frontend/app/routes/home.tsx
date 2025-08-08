@@ -9,5 +9,17 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div>
+      <a className="cursor-pointer text-blue-400 hover:underline" href="/chat">
+        Go to Chat
+      </a>
+      <a
+        className="cursor-pointer text-blue-400 hover:underline"
+        href="/upload"
+      >
+        Go to upload text
+      </a>
+    </div>
+  );
 }
